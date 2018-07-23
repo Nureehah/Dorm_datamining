@@ -49,7 +49,7 @@ $autoload['packages'] = array();
 | application/libraries/ directory, with the addition of the
 | 'database' library, which is somewhat of a special case.
 |
-| Prototype:
+| Prototype:    
 |
 |	$autoload['libraries'] = array('database', 'email', 'session');
 |
@@ -58,7 +58,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array();
+$autoload['libraries'] = array('database', 'email', 'session');
 
 /*
 | -------------------------------------------------------------------
@@ -89,7 +89,7 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array();
+$autoload['helper'] = array('url', 'file');
 
 /*
 | -------------------------------------------------------------------
